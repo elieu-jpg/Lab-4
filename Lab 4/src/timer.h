@@ -7,8 +7,10 @@
 #ifndef TIMER_H
 #define TIMER_H
 
-#include <avr/io.h>
+void initTimer0();
+void startTimer0();
+void stopTimer0();
 
-
+extern volatile unsigned char debounceComplete;
 
 #endif

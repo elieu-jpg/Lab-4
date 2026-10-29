@@ -5,10 +5,12 @@
 //----------------------------------------------------------------------//
 
 #ifndef PWM_H
-#define PWM_H   
-#include <stdint.h>
+#define PWM_H
 
+// Initialize Timer 3 for PWM output
 void initPWM();
-void setPWMDutyCycle(uint8_t dutyCycle);
+
+// Change PWM duty cycle based on ADC reading
+void changeDutyCycle(unsigned int adcValue);
 
 #endif

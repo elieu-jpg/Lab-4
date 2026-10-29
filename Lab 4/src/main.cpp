@@ -4,7 +4,7 @@
 // Assignment: Lab 4
 //----------------------------------------------------------------------//
 
-#include <avr/io.h>
+#include <Arduino.h>
 
 int main(){
   return 0;
